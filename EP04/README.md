@@ -1,0 +1,1 @@
+# EP04 - Ok. Vamos implementar Cloud com o Azure
