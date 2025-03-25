@@ -1,0 +1,1 @@
+# EP03 - Queremos operar no Azure como Iniciamos?

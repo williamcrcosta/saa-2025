@@ -10,3 +10,11 @@
 6. **Aula 06** - Como gerar seu Ingresso para a Semana Arquiteto Azure - SAA
 
 [Link para o curso](https://saa.tftec.com.br/aluno/course/semana-arquiteto-azure)
+
+## Pastas
+
+* [EP01- Pensei em Azure, você conhece?](EP01/)
+* [EP02 - Vamos testar uma aplicação rodando no Azure?](EP02/)
+* [EP03- Queremos operar no Azure como Iniciamos?](EP03/)
+* [EP04- Ok. Vamos implementar Cloud com o Azure](EP04/)
+* [EP05- A conclusão do Projeto](EP05/)
