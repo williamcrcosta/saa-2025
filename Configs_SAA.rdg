@@ -1,11 +1,54 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <RDCMan programVersion="2.93" schemaVersion="3">
   <file>
-    <credentialsProfiles />
+    <credentialsProfiles>
+      <credentialsProfile inherit="None">
+        <profileName scope="Local">Credentials</profileName>
+        <userName>admin.william</userName>
+        <password>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAuE4XkW/w1Uy9l3WjlVyBHAAAAAACAAAAAAAQZgAAAAEAACAAAACC3Kn24fA10VWitvGf/40R0R6lCc+c9rtakEGWH5JqWgAAAAAOgAAAAAIAACAAAABRsbes/8IP9KdHjLsOlMsPHd8aoz0KAYUaQnVaL9IouTAAAACFFEZYe8wyPEW6Xf+CKuzOe+ooOzNscl3sqK9juIvn38h0jePP1oz90GAU08ZJv4tAAAAACwgJZ04RuFHp8k1Q56+jRwU9pKYp6qdoVFuwfXC7FDnQB0UhV769CGfM3FcX+DdL+nzpsUgXrjbD2QRyIom9NQ==</password>
+        <domain />
+      </credentialsProfile>
+    </credentialsProfiles>
     <properties>
-      <expanded>False</expanded>
+      <expanded>True</expanded>
       <name>Configs_SAA</name>
     </properties>
+    <logonCredentials inherit="None">
+      <profileName scope="File">Credentials</profileName>
+    </logonCredentials>
+    <server>
+      <properties>
+        <name>vm-app-saa.eastus.cloudapp.azure.com</name>
+        <comment>172.191.189.137</comment>
+      </properties>
+      <logonCredentials inherit="None">
+        <profileName scope="File">Credentials</profileName>
+      </logonCredentials>
+    </server>
+    <server>
+      <properties>
+        <name>vm-db-saa.eastus.cloudapp.azure.com</name>
+        <comment>172.191.189.137
+
+vm-db-saa.eastus.cloudapp.azure.com</comment>
+      </properties>
+      <logonCredentials inherit="None">
+        <profileName scope="File">Credentials</profileName>
+      </logonCredentials>
+      <remoteDesktop inherit="None">
+        <sameSizeAsClientArea>True</sameSizeAsClientArea>
+        <fullScreen>False</fullScreen>
+        <colorDepth>24</colorDepth>
+      </remoteDesktop>
+    </server>
+    <server>
+      <properties>
+        <name>vm-app2-saa.eastus.cloudapp.azure.com</name>
+      </properties>
+      <logonCredentials inherit="None">
+        <profileName scope="File">Credentials</profileName>
+      </logonCredentials>
+    </server>
   </file>
   <connected />
   <favorites />
