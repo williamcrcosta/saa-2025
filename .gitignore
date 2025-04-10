@@ -14,7 +14,7 @@
 # Ignore directories
 **/tf-code/*
 
-**/code-v0/*
+*/code-v0/*
 
 # .tfstate files
 #
@@ -84,7 +84,7 @@ locals.tf
 terraform.rc
 
 # Ignore PowerShell configuration files
-*.ps1
+#*.ps1 # Comentado para que o script de deploy suba para o GitHUB e funcione
 *.psm1
 *.psd1
 
