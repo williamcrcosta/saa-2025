@@ -11,6 +11,11 @@
 # information about the structure of a terraform configuration.
 **/.terraform/*
 
+# Ignore directories
+**/tf-code/*
+
+*/code-v0/*
+
 # .tfstate files
 #
 # These files contain the state of your infrastructure, and are usually
@@ -55,6 +60,11 @@ override.tf.json
 
 .terraform-docs.yml
 
+#Ignore locals.tf file
+locals.tf
+
+#Ignore rdg file
+/Configs_SAA.rdg
 
 # Include override files you do wish to add to version control using
 # negated pattern
@@ -74,3 +84,9 @@ override.tf.json
 # Ignore CLI configuration files
 .terraformrc
 terraform.rc
+
+# Ignore PowerShell configuration files
+#*.ps1 # Comentado para que o script de deploy suba para o GitHUB e funcione
+*.psm1
+*.psd1
+

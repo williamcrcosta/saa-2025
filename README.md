@@ -18,3 +18,7 @@
 * [EP03- Queremos operar no Azure como Iniciamos?](EP03/)
 * [EP04- Ok. Vamos implementar Cloud com o Azure](EP04/)
 * [EP05- A conclusão do Projeto](EP05/)
+
+## Topologia Base
+
+![Topologia Base](/images/Topologia%20Base.png)
