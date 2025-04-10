@@ -63,6 +63,8 @@ override.tf.json
 #Ignore locals.tf file
 locals.tf
 
+#Ignore rdg file
+/Configs_SAA.rdg
 
 # Include override files you do wish to add to version control using
 # negated pattern
