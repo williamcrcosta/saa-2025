@@ -14,7 +14,7 @@
 # Ignore directories
 **/tf-code/*
 
-*/code-v0/*
+# */code-v0/*
 
 # .tfstate files
 #
@@ -61,10 +61,10 @@ override.tf.json
 .terraform-docs.yml
 
 #Ignore locals.tf file
-locals.tf
+# locals.tf
 
 #Ignore rdg file
-/Configs_SAA.rdg
+# /Configs_SAA.rdg
 
 # Include override files you do wish to add to version control using
 # negated pattern
@@ -87,6 +87,6 @@ terraform.rc
 
 # Ignore PowerShell configuration files
 #*.ps1 # Comentado para que o script de deploy suba para o GitHUB e funcione
-*.psm1
-*.psd1
+#*.psm1
+#*.psd1
 

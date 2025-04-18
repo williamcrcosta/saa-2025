@@ -1,5 +1,7 @@
 # Semana Arquiteto Azure 2025 (SAA-2025)
 
+Nesse repositorio estão os códigos e materiais utilizados na Semana Arquiteto Azure 2025 (SAA-2025).
+
 ## Aulas
 
 1. **Aula 01** - Bem-vindo
