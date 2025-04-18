@@ -22,3 +22,10 @@ New-Website -Name "Dash" -Port 8080 -PhysicalPath "C:\inetpub\wwwroot\Dash" -App
 
 Realiza o restart da maquina pós instalação dos componentes.
 Restart-Computer -Force
+
+
+# Remove a binding existente na porta 8080
+# Remove-WebBinding -Name "Dash" -Protocol http -Port 8080
+
+# Cria uma nova binding na porta 80
+# New-WebBinding -Name "Dash" -Protocol http -Port 80 -IPAddress "*" -HostHeader ""
